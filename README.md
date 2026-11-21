@@ -2,7 +2,7 @@
 
 An Albukhary International University (AIU) Computer Science final-year project exploring a structured HR portal for summarising and ranking a small, bounded set of CVs.
 
-> **Project status: academic design project — not deployed.** This repository is public documentation only. It contains no application source, CV files, applicant records, credentials or private university materials.
+> **Project status: academic FYP with an approved ERD and a separate local UI-only Milestone 1 preview — not deployed.** The preview uses fictional data and simple weighted arithmetic, not a working NLP model, authentication or database integration. This public repository contains documentation only: no source code, real CVs, applicant records, credentials or private university materials.
 
 ## Project context
 
