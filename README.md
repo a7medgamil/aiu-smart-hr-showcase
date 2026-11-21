@@ -50,6 +50,8 @@ This describes the intended design, not a verified running workflow.
 
 See [Project Scope](docs/PROJECT-SCOPE.md), [Concept Architecture](docs/ARCHITECTURE.md) and [Status & Evidence](docs/STATUS.md).
 
+**Engineering milestone clarification:** The private project record also describes a local, non-deployed Milestone 1 **UI preview plus SQLite schema checks** using only fictional data. It does not implement an AI model, production authentication, database integration or CV processing. See [Engineering Evidence & Responsible Evaluation Plan](docs/ENGINEERING-AND-EVALUATION-PLAN.md) for the exact distinction and proposed next acceptance gates.
+
 ## Portfolio record
 
 [Open the full portfolio case study](https://ahmed-gamil-portfolio.ahmedabdulbarim.workers.dev/case-studies/hr-nlp-cv-summarizer)
