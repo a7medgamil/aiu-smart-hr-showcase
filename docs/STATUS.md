@@ -14,6 +14,10 @@
 
 The private `aiu-smart-hr` README describes a fake-data local preview with HR and Candidate screens, weight-adjustable **DEMO** arithmetic, static Node.js server, an unconnected nine-table SQLite/D1 schema and locally designed checks (including 42 schema assertions). These details describe a non-production prototype; this public case-study repository does **not** include its source or independently re-run its tests. Real CV extraction, persistence, account sign-in and PDF/DOCX export are not implemented in that preview. [Evaluation boundaries and future test plan](ENGINEERING-AND-EVALUATION-PLAN.md).
 
+## November 21 private QA milestone
+
+An isolated private implementation branch was independently retested, merged into the **private** main branch and passed a read-only Node 22/24 CI workflow. Local checks recorded **12/12 Node tests**, **42 schema assertions**, **44 desktop/mobile route checks** and **11 browser interactions**. Changes address deterministic weight normalization, invalid scores, candidate/application linking and narrow-screen/keyboard behavior. The [public synthetic preview and limitations](MILESTONE1-SYNTHETIC-QA-EVIDENCE.md) shows only original fictional-data screenshots and a test-scope summary. This **does not** mean the public documentation repository includes executable source or public verification of private CI.
+
 ## Not claimed
 
 - A deployed application or production service

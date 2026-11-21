@@ -24,6 +24,10 @@ The private engineering README for the AIU project records a local, dependency-f
 
 **Important reconciliation:** the original public showcase previously described only the academic design/ERD milestone. This document also acknowledges the separately recorded **local Milestone 1 UI preview** while preserving its strict non-production, non-AI status. No private university material or CV data is copied.
 
+### Private engineering QA milestone (21 November 2026)
+
+The local fictional-data interface and unconnected schema subsequently received tested fixes and private CI. A separate reviewer repeated the Node checks (12 passing), nine-table SQLite schema checks (42 assertions), and two-viewport Chrome route/interaction checks (44 + 11), then verified successful GitHub Actions on the private main commit. **Neither the source nor CI runs are public to a recruiter**, and none of these are model-accuracy, production-security or applicant-outcome tests. The [synthetic UI proof sheet](MILESTONE1-SYNTHETIC-QA-EVIDENCE.md) includes the limited, shareable screenshots and methodology.
+
 ## 2. Core problem and bounded user journey
 
 **Problem hypothesis:** reviewing a small CV set individually may be inconsistent or time-consuming. The academic idea is to support a human reviewer through seven common dimensions: qualifications, experience, location/relocation, soft and hard skills, references, personal information and rewards.
