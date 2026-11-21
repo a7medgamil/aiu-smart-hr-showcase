@@ -4,6 +4,12 @@ An Albukhary International University (AIU) Computer Science final-year project 
 
 > **Project status: academic FYP with an approved ERD and a separate local UI-only Milestone 1 preview — not deployed.** The preview uses fictional data and simple weighted arithmetic, not a working NLP model, authentication or database integration. This public repository contains documentation only: no source code, real CVs, applicant records, credentials or private university materials.
 
+## Academic UI milestone — fictional preview and independently rerun QA
+
+[![Fictional AIU Smart HR preview — sample data only](assets/preview/academic-hr-home-desktop.png)](docs/MILESTONE1-SYNTHETIC-QA-EVIDENCE.md)
+
+The **local-only UI preview** has been independently tested in the **private** implementation repository: 12/12 Node tests, 42 SQLite schema assertions, 44 desktop/mobile route checks and 11 browser interactions. A read-only GitHub Actions workflow passed on Node 22 and Node 24 after the private main merge. **These are tests of a fictional-data academic prototype, not of a deployed NLP model or production HR service.** [Public synthetic screenshots, exact verification scope and caveats](docs/MILESTONE1-SYNTHETIC-QA-EVIDENCE.md) · [Mobile screenshot](assets/preview/academic-cv-mobile.png). The private CI and code are not inspectable to a signed-out recruiter.
+
 ## Project context
 
 The project is supervised by Dr. Bashir. Its design explores how an HR reviewer could assess fewer than 10 CVs at a time against the same seven dimensions, using a consistent summary and ranking structure.
