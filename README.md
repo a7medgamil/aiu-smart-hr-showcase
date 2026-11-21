@@ -2,7 +2,7 @@
 
 An Albukhary International University (AIU) Computer Science final-year project exploring a structured HR portal for summarising and ranking a small, bounded set of CVs.
 
-> **Project status: academic design project — not deployed.** This repository is public documentation only. It contains no application source, CV files, applicant records, credentials or private university materials.
+> **Project status: academic FYP with an approved ERD and a separate local UI-only Milestone 1 preview — not deployed.** The preview uses fictional data and simple weighted arithmetic, not a working NLP model, authentication or database integration. This public repository contains documentation only: no source code, real CVs, applicant records, credentials or private university materials.
 
 ## Project context
 
@@ -49,6 +49,8 @@ This describes the intended design, not a verified running workflow.
 - The project is not presented as a completed HR product.
 
 See [Project Scope](docs/PROJECT-SCOPE.md), [Concept Architecture](docs/ARCHITECTURE.md) and [Status & Evidence](docs/STATUS.md).
+
+**Engineering milestone clarification:** The private project record also describes a local, non-deployed Milestone 1 **UI preview plus SQLite schema checks** using only fictional data. It does not implement an AI model, production authentication, database integration or CV processing. See [Engineering Evidence & Responsible Evaluation Plan](docs/ENGINEERING-AND-EVALUATION-PLAN.md) for the exact distinction and proposed next acceptance gates.
 
 ## Portfolio record
 
