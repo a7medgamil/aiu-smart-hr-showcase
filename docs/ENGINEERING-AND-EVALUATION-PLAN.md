@@ -81,7 +81,7 @@ No academic-model evaluation metrics, datasets, model checkpoints or accuracy pe
 - [ ] A sanitized short GIF or video demonstrating criteria-weight changes and nonpersistent DEMO scores.
 - [x] An independent original public **synthetic** rule function with reproducible local tests, added 22 November 2026; no private code copied. See [scope and limits](SYNTHETIC-LAB.md).
 - [ ] A versioned requirements document and decision record distinguishing the academic milestone from later ideas.
-- [ ] A verified CI run on an actually public code artifact. The public lab now has a pinned read-only CI definition, but this task has not pushed or run it. A private README's local-check description is not a public CI badge.
+- [x] The independent public synthetic lab passed its read-only Node 24 [GitHub Actions on published main SHA `7da8bbc`](https://github.com/a7medgamil/aiu-smart-hr-showcase/actions/runs/44984807984), including seven Node tests, syntax checks, and the CLI. This is **public synthetic source QA only**, not the private FYP's academic-model acceptance.
 
 ## 7. Responsible authorship
 

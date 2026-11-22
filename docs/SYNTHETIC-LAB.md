@@ -55,4 +55,4 @@ Expected bundled-fixture output (rule diagnostics only):
 | Work history | 2 | 0 | 0 | 1 | 1 | 2 / 4 |
 | Skill | 1 | 0 | 1 | 1 | 0.5 | 2 / 4 |
 
-These fractions describe only this tiny constructed exercise and must not be advertised as real-model accuracy. Separate counterexample tests force false positives and undefined denominators to check the accounting itself. Local verification: `node --test` reports 7 passing synthetic tests on Node 24. GitHub Actions must pass on the exact published SHA before any remote CI claim.
+These fractions describe only this tiny constructed exercise and must not be advertised as real-model accuracy. Separate counterexample tests force false positives and undefined denominators to check the accounting itself. Local verification: `node --test` passed 7/7 synthetic tests on Node 24. The read-only [GitHub Actions run #44984807984](https://github.com/a7medgamil/aiu-smart-hr-showcase/actions/runs/44984807984) also succeeded on published main SHA `7da8bbcb85bfb796766af693027825a9432e18c0`; this is reproducible proof of this tiny fictional lab only.
