@@ -66,7 +66,7 @@ The engineering question is not simply whether a CV can be ranked. It is whether
 5. Audit incorrect ranking explanations and calibrate reviewer trust; log overrides rather than claiming the model should decide hiring.
 6. Report performance with confidence intervals and dataset limitations. Do not claim fairness, accuracy, time saving or recruitment success without that evidence.
 
-No evaluation metrics, datasets, model checkpoints or accuracy percentages are currently published.
+No academic-model evaluation metrics, datasets, model checkpoints or accuracy percentages are published. The separate [public synthetic lab](SYNTHETIC-LAB.md), added 22 November 2026, publishes only hand-authored rule-fixture diagnostics. It does not perform this proposed academic evaluation or satisfy Stages B–D.
 
 ## 6. What recruiters can inspect now
 
@@ -79,9 +79,9 @@ No evaluation metrics, datasets, model checkpoints or accuracy percentages are c
 
 - [ ] A dated screenshot set of the **fake-data** Milestone 1 local preview after asset/privacy review.
 - [ ] A sanitized short GIF or video demonstrating criteria-weight changes and nonpersistent DEMO scores.
-- [ ] A public original **synthetic** scoring function with reproducible tests (only if sharing rights permit).
+- [x] An independent original public **synthetic** rule function with reproducible local tests, added 22 November 2026; no private code copied. See [scope and limits](SYNTHETIC-LAB.md).
 - [ ] A versioned requirements document and decision record distinguishing the academic milestone from later ideas.
-- [ ] A verified CI run on an actually public code artifact. A private README's local-check description is not a public CI badge.
+- [ ] A verified CI run on an actually public code artifact. The public lab now has a pinned read-only CI definition, but this task has not pushed or run it. A private README's local-check description is not a public CI badge.
 
 ## 7. Responsible authorship
 

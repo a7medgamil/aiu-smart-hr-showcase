@@ -2,7 +2,13 @@
 
 An Albukhary International University (AIU) Computer Science final-year project exploring a structured HR portal for summarising and ranking a small, bounded set of CVs.
 
-> **Project status: academic FYP with an approved ERD and a separate local UI-only Milestone 1 preview — not deployed.** The preview uses fictional data and simple weighted arithmetic, not a working NLP model, authentication or database integration. This public repository contains documentation only: no source code, real CVs, applicant records, credentials or private university materials.
+> **Project status: academic FYP with an approved ERD and a separate local UI-only Milestone 1 preview — not deployed.** The preview uses fictional data and simple weighted arithmetic, not a working NLP model, authentication or database integration. This public repository is a **case study with an independent synthetic coding lab**: no real CVs, applicant records, credentials or private university materials. The original public lab is separate from the private academic implementation.
+
+## Independent public synthetic lab — 22 November 2026
+
+The dependency-free Node 24 [synthetic evaluation lab](docs/SYNTHETIC-LAB.md) matches three fixed invented requirements to explicit evidence, abstains on ambiguity and reports per-criterion rule metrics against four invented gold records. It is a deterministic teaching example, not trained NLP/AI or real job recommendations. Human reviewers remain final arbiters. The academic system's proposed NLP evaluation remains future work.
+
+From the repository root, run `node --test`, then `node lab/run.mjs`. No installation is needed. See the lab guide for exact syntax checks, scoring, data provenance and limitations.
 
 ## Academic UI milestone — fictional preview and independently rerun QA
 
