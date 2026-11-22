@@ -20,7 +20,7 @@ An isolated private implementation branch was independently retested, merged int
 
 ## November 22 independent public synthetic lab
 
-This public repository now contains an original, dependency-free [Node 24 rule exercise](SYNTHETIC-LAB.md), four wholly invented labeled records, evidence/abstention scoring, per-criterion metrics and seven passing local tests. It is independent of the private academic implementation and does not process real CVs, train NLP/AI, authenticate users or deploy anything. Its pinned read-only CI definition has been added but no public CI run is claimed. The reproducible test commands and fictional-data provenance are documented in the [lab guide](SYNTHETIC-LAB.md).
+This public repository now contains an original, dependency-free [Node 24 rule exercise](SYNTHETIC-LAB.md), four wholly invented labeled records, evidence/abstention scoring, per-criterion metrics and seven passing local tests. It is independent of the private academic implementation and does not process real CVs, train NLP/AI, authenticate users or deploy anything. Its pinned read-only CI completed [successfully on the published main commit `7da8bbc`](https://github.com/a7medgamil/aiu-smart-hr-showcase/actions/runs/44984807984). This verifies only the independent synthetic lab, not the private academic FYP. The reproducible test commands and fictional-data provenance are documented in the [lab guide](SYNTHETIC-LAB.md).
 
 ## Not claimed
 
