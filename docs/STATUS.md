@@ -16,7 +16,11 @@ The private `aiu-smart-hr` README describes a fake-data local preview with HR an
 
 ## November 21 private QA milestone
 
-An isolated private implementation branch was independently retested, merged into the **private** main branch and passed a read-only Node 22/24 CI workflow. Local checks recorded **12/12 Node tests**, **42 schema assertions**, **44 desktop/mobile route checks** and **11 browser interactions**. Changes address deterministic weight normalization, invalid scores, candidate/application linking and narrow-screen/keyboard behavior. The [public synthetic preview and limitations](MILESTONE1-SYNTHETIC-QA-EVIDENCE.md) shows only original fictional-data screenshots and a test-scope summary. This **does not** mean the public documentation repository includes executable source or public verification of private CI.
+An isolated private implementation branch was independently retested, merged into the **private** main branch and passed a read-only Node 22/24 CI workflow. Local checks recorded **12/12 Node tests**, **42 schema assertions**, **44 desktop/mobile route checks** and **11 browser interactions**. Changes address deterministic weight normalization, invalid scores, candidate/application linking and narrow-screen/keyboard behavior. The [public synthetic preview and limitations](MILESTONE1-SYNTHETIC-QA-EVIDENCE.md) shows only original fictional-data screenshots and a test-scope summary. This **does not** provide public verification of private source or private CI.
+
+## November 22 independent public synthetic lab
+
+This public repository now contains an original, dependency-free [Node 24 rule exercise](SYNTHETIC-LAB.md), four wholly invented labeled records, evidence/abstention scoring, per-criterion metrics and seven passing local tests. It is independent of the private academic implementation and does not process real CVs, train NLP/AI, authenticate users or deploy anything. Its pinned read-only CI definition has been added but no public CI run is claimed. The reproducible test commands and fictional-data provenance are documented in the [lab guide](SYNTHETIC-LAB.md).
 
 ## Not claimed
 
@@ -28,6 +32,6 @@ An isolated private implementation branch was independently retested, merged int
 
 ## Evidence boundary
 
-This repository documents the academic scope and intended workflow only. It deliberately excludes CVs, applicant data, credentials, private university records and unapproved screenshots.
+The academic case study documents scope and intended workflow; the independent public lab demonstrates only its own synthetic rules. It deliberately excludes CVs, applicant data, credentials, private university records and unapproved screenshots.
 
-The implementation and evaluation status beyond the design milestone is not established by this public case study.
+The public lab establishes no additional implementation or evaluation status for the private academic FYP.
